@@ -12,8 +12,11 @@ Caesar Cipher is one of the simplest and most widely known encryption techniques
 
 #### Example:
 Suppose we a have text “presidency university” to be encrypted. We can replace each letter present in the text by another letter having fixed difference. Let’s say we want to right shift by 2 then each letter of the above text has to be replaced by the letter positioned second from the letter.
-##### Plaintext: presidency university
-##### Ciphertext: rtgukfgpea wpkxgtukva
+
+ **Plaintext:** presidency university
+ 
+**Ciphertext:** rtgukfgpea wpkxgtukva
+
 It is easy to see how each character in the plaintext is shifted up the alphabet. Decryption is just as easy, by using an offset of -2.
 
 ### Mathematical Description 
